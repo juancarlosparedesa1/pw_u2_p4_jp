@@ -6,6 +6,7 @@ import com.example.demo.repository.modelo.Vehiculo;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.TypedQuery;
 import jakarta.transaction.Transactional;
 
 @Repository
@@ -23,7 +24,11 @@ public class VehiculoRepositoryImpl implements IVehiculoRepository {
 
 	@Override
 	public Vehiculo buscar(String placa) {
-		return this.entityManager.find(Vehiculo.class, placa);
+//		return this.entityManager.find(Vehiculo.class, placa);
+		String hql = "FROM Vehiculo WHERE placa = :placa";
+		TypedQuery<Vehiculo> query = entityManager.createQuery(hql, Vehiculo.class);
+		query.setParameter("placa", placa);
+		return query.getSingleResult();
 
 	}
 
