@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/calculadoraFinal.css">
+    <script src="../js/calduladoraDeber.js"></script>
+</head>
+
+<body>
+
+    <header class ="cabecera">Calculadora</header>
+    <nav></nav>
+
+    <section>
+        <div class="container">
+            
+            <div class="calculadora">
+
+                <label class="pantalla" id="idpantalla" for=""></label>
+
+                <button class="boton" onclick="ponerUno()">1</button>
+                <button class="boton" onclick="ponerDos()">2</button>
+                <button class="boton" onclick="ponerTres()">3</button>
+
+                <button class="boton" id="idsuma" onclick="ponerSuma()">+</button>
+
+                <button class="boton" onclick="ponerCuatro()">4</button>
+                <button class="boton" onclick="ponerCinco()">5</button>
+                <button class="boton" onclick="ponerSeis()">6</button>
+
+                <button class="boton" id="idresta" onclick="ponerResta()">-</button>
+
+                <button class="boton" onclick="ponerSiete()">7</button>
+                <button class="boton" onclick="ponerOcho()">8</button>
+                <button class="boton" onclick="ponerNueve()">9</button>
+
+                <button class="boton" id="iddiv" onclick="ponerDiv()">/</button>
+                <button class="butonGrande" onclick="ponerCero()">0</button>
+                
+                <button class="boton" id="idigual" onclick="resolver()">=</button>
+                <button class="boton" id="idmulti" onclick="ponerMulti()">*</button>
+
+
+            </div>
+        </div>
+
+
+    </section>
+    <footer></footer>
+
+</body>
+
+</html>

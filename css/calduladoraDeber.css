@@ -1,0 +1,47 @@
+.numerico{
+    background-color: lightyellow;
+    color: black;
+    
+}
+
+.operaciones{
+    background-color: dodgerblue;
+    color: black;
+}
+
+#idpantalla{
+    display: inline-block;
+    border: 2px solid black;
+    width: 300px;
+    height: 50px;
+    text-align: right;
+    font-size: 40px;
+    overflow: hidden;
+}
+
+header,nav,section,footer{
+    display: block;
+}
+
+.botonera{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 50px;
+    gap: 10px;
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+}
+
+#idigual{
+    width: 100;
+}
+
+section{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+}

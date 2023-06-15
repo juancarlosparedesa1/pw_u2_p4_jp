@@ -1,0 +1,81 @@
+.menu li{
+    list-style: none;
+    display: inline-block;  
+    border: inset gray;
+    /*margin: 10px 20px 30px 40px;*/
+    margin: 5px;
+    padding: 15px 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.cabecera h1{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: dimgrey;
+
+}
+
+.menu{
+    background-color: blanchedalmond;
+    text-align: left;
+}
+
+header, section, footer, aside, nav,article{
+    display: block;
+}
+
+body{
+    text-align: center;
+    background: lightskyblue;
+}
+
+.formulario{
+    width: 900px;
+    border: 1px double black;
+    margin: 15px auto;
+}
+
+.seccion{
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+
+article{
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 25px ;
+    background-color: lightcoral;
+}
+
+
+.referencias{
+    border: 1px solid black;
+    width: 200px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+article footer{
+    text-align: right;
+}
+
+.pie{
+    clear: both;
+}
+
+.imgarticulo{
+    float: none;
+    border: 1px solid black;
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+}
+
+/*
+h1, h2, h3, h4, h5, h6{
+    color: red;
+}*/

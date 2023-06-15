@@ -1,0 +1,37 @@
+* {
+    color: yellow;
+    background-color: black;
+  }
+/*2. por elemento*/
+h1 {
+  color: blue;
+}
+p{
+  size: 17px;
+}
+.clase1 {
+  color: aqua;
+}
+.clase2 {
+  color : purple;
+}
+#idtitulogrande{
+  color: greenyellow;
+}
+a[href] {
+  color: brown;
+}
+
+a[href*=".ec"] {
+  color: rgb(192, 6, 230);
+}
+
+/*img[alt*="puede"]{
+
+}*/
+
+/*label:hover{
+  color: orangered;
+  background-color: blue;
+  font-size: 51px;
+}*/
